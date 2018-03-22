@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'Atmosphere';
+  src: local(../fonts/atmosphere-regular.woff) url(fonts/atmosphere-regular.woff);
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26pt;
+  color: #dfe9ea;
+  background-color: #5f5939;
+}
+
+.more {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  background-color: #dfe9ea;
+  color: #5f5939;
+}
+
+a {
+  font-family: 'Karma', serif;
+  color: #dfe9ea;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #dfe9ea;
+}
+
+a:hover, a:active {
+  color: #ff755c;
+}
+
+.bg {
+  background-image: url("../img/darkmtn.png");
+  height: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.everything {
+  width: 100%
+  min-width: 900px;
+  overflow: scroll;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 900px;
+  max-height: 150px;
+}
+
+.more-h {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 900px;
+  max-height: 150px;
+  background-image: url('../img/darkmtn-header.png');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.header p, .more-h p {
+  font-family: 'Atmosphere', cursive;
+  font-size: 110px;
+  color: inherit;
+  line-height: 90px;
+  padding: 0px;
+  margin: 0px;
+  color: #dfe9ea;
+}
+
+.half-l {
+  width: 600px;
+  height: 130px;
+  padding: 0px;
+  margin: 20px 50px 0px 50px;
+  float: left;
+}
+
+.half-r {
+  width: 400px;
+  height: 100px;
+  padding: 0px;
+  margin: 20px 50px 0px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.half-r ul li {
+  display: block;
+  float: right;
+  width: 85px;
+  margin: 0px 0px 0px 10px;
+}
+
+
+.main {
+  width: 100%;
+  min-height: 500px;
+  margin: 170px 0px 70px;
+  padding: 50px 0px;
+  overflow: scroll;
+}
+
+.icon {
+  margin: 15px 50px 15px 700px;
+}
+
+.info {
+  width: 610px;
+  height: 170px;
+  padding: 5px 30px;
+  margin: 10px 400px;
+  background-color: rgba(95, 89, 57, .33);
+}
+
+.info p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.info span {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.headline {
+  font-family: 'Atmosphere', cursive;
+  font-size: 60pt;
+  margin: 25px 0px;
+}
+
+.section {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0px 50px;
+  margin: 50px 0px 150px;
+  clear: both;
+}
+
+.left {
+  width: 600px;
+  margin: 0px;
+  float: left;
+}
+
+.about-p {
+  margin: auto;
+  height: 540px;
+  width: 550px;
+  overflow-y: scroll;
+}
+
+.about-p p {
+  font-size: 13pt;
+  display: block;
+}
+
+.right {
+  width: 600px;
+  margin: 0px;
+  float: right;
+}
+
+.work-words {
+  letter-spacing: 1px;
+  margin: 10px 20px 10px 0px;
+  padding: 10px 25px;
+}
+
+.free {
+  font-size: 20pt;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.card-display {
+  margin: auto;
+  padding: 25px;
+}
+
+.work-display {
+  margin: 45px 0px;
+}
+
+.work-display p {
+  font-family: sans-serif;
+  font-size: .75em;
+  font-style: italic;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.page-display {
+  margin: 0px 50px 25px 50px;
+}
+
+.headshot {
+  margin: 0px 100px;
+  width: 400px;
+}
+
+.contactor {
+  padding: 50px 0px;
+  margin: 80px auto;
+}
+
+.green-button {
+  background-color: #5f5939;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 10px;
+  margin: 30px auto;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Karma', serif;
+  color: #dfe9ea;
+  display: block;
+}
+
+.green-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.headline2 {
+  font-family: 'Atmosphere', cursive;
+  font-size: 40pt;
+  margin: 20px 0px;
+}
+
+.headline3 {
+  font-family: 'Atmosphere', cursive;
+  font-size: 30pt;
+  margin: 10px 0px;
+}
+
+.big-soc {
+  width: 500px;
+  margin: 80px 0px 30px 0px;
+
+}
+
+.big-soc-head {
+  text-align: center;
+  width: 500px;
+  margin: 15px 25px;
+  float: right;
+  clear: both;
+}
+
+.big-soc-img {
+  display: block;
+  float: right;
+  margin: 20px 0px 20px 40px;
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+/*  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+margin-top: 50px;*/
+  clear: both;
+}
+
+
+.foot {
+  width: 610px;
+  float: right;
+  margin: 5px 50px;
+}
+
+.foot p {
+  font-family: 'Atmosphere', cursive;
+  font-size: 42px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+  color: #dfe9ea;
+}
+
+.back-foot {
+  background-image: url('../img/darkmtn-footer.png');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social {
+  width: 175px;
+  float: right;
+}
+
+.line-up {
+  display: block;
+  float: right;
+  margin: 0px 0px 0px 18px;
+}
